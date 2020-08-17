@@ -5,7 +5,7 @@ const hourHand=document.querySelector(".hour");
 function setClock(){
 	const currentDate=new Date();
 	const secondRatio=currentDate.getSeconds()/60;
-	console.log(currentDate.getSeconds())
+	
 	const minuteRatio=(secondRatio+currentDate.getMinutes())/60;
 	const hourRatio=(minuteRatio+currentDate.getHours())/12;
 	document.querySelector(".digital").innerHTML=currentDate.getHours()+":"+currentDate.getMinutes()+":"+currentDate.getSeconds();
