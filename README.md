@@ -1,2 +1,2 @@
 # Clock
-Here we made a analog clock using vanilla JS ,css and HTML.
+Clock using vanilla JS ,css and HTML.Live at https://abhilekhgautam.github.io/Clock/site/index.html
